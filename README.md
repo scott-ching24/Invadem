@@ -3,7 +3,9 @@ This is a mimic of the classic Invadem Game whereby a player must defend the pla
 
 The game concludes when either the space invaders reach the beginning barrier level or the player destroys all the space invaders. If all the space invaders are destroyed, the game progresses to the next level where space invaders firing speed is increased by 1 (to a maximum of 5 levels).
 
+# Notes about this program
 This assignment was created using the Java programming language and tested my ability to implement my knowledge of the programming language and Object Oriented Programming (OOP). From this assignment, I also began to understand more about .build files and wrappers, Maven dependencies, Gradle and unit tests which can be found in the project folder.
+An improvement that can be made for this application is that the unit tests should not overlap each other. Since each test executes a new version of the game, this can significantly slow the processing speed. Instead, the game should be created once and all tests should be executed during this timeframe.
 
 ## Tank
 This is a player controlled entity that can be moved by pressing the left and right arrow keys on the keyboard
